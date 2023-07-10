@@ -5,4 +5,4 @@ let counterValue = 0
 for (let i = 0; i < archive.children.length; i++) {
     counterValue++
     }
-counter.innerHTML = `Total TP Amount: ${counterValue}`
+counter.innerHTML = `Total TP Amount: ${counterValue / 2}` // because <br> counts as one element
