@@ -6,3 +6,4 @@
 *.o
 .vscode
 .vscode/settings.json
+*.py
