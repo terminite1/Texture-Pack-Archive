@@ -5,7 +5,7 @@ let folders = document.getElementById('folders')
 let counterValue = 0
 let counter2Value = 0
 
-let extraValue = 214 // when you add a pack, add the amount of TP to this variable
+let extraValue = 325 // when you add a pack, add the amount of TP to this variable
 // for example right now it is 214 because joopiter's pack has 214 packs, so if you add a pack folder of 74 packs,
 // you would add 74 to 214, making it 288
 
