@@ -16,15 +16,19 @@ let getArchiveChildren = () => {
         counterValue++
     }
 
-    return (counterValue / 2) + extraValue
+    return (counterValue / 2) // divided by 2 because there is extra element (br) in the div
 }
 let getFoldersChildren = () => {
     for (let i = 0; i < folders.children.length; i++) {
         counter2Value++
     }
 
-    return (counter2Value / 2);
+    return (counter2Value / 2); // same story here
 }
 
-counter.innerHTML = `Total TP Amount: ${getArchiveChildren() - counter2Value}` // because <br> counts as one element
-counter2.innerHTML = `Total TP Pack Amount: ${getFoldersChildren()}` // because <br> counts as one element
+let ughhh = () => {
+    return extraValue - counter2Value // the "pack folders" get counted as a pack, so we're subtracting the amount of pack folders from the total amount of packs
+}
+
+counter.innerHTML = `Total TP Amount: ${getArchiveChildren()} ` + "(" + ughhh() + ")"
+counter2.innerHTML = `Total TP Pack Amount: ${getFoldersChildren()}`
