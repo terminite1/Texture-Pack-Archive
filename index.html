@@ -202,7 +202,7 @@
                         <!-- put placeholders there if you want, you don't really have to remove them if you want-->
 
                         <br><br>More Coming...<br>
-                        If you'd like to add your own, or have suggestions, contact me below.<br>
+                        If you'd like to add your own, or have suggestions, contact me below or use feedback button.<br>
                         
                         <hr style="width: 100%; height: 2px; background-color: white;"><!-- SOFTWARE -->
                         <h3>Software</h3>
@@ -215,8 +215,7 @@
                         <h3>Personal Notes:</h3>
                         I do not care if this will give me a bad reputation.<br>I just want everything to be accessible to everyone, without restrictions.<br><br>
 
-                        terminite says on 07/18 - Another one bites the dust!
-
+                        terminite says on 07/18 - Another one bites the dust!<br><br>
 
                         <br><br>
                         <hr style="width: 100%; height: 2px; background-color: white;"><!-- DISCLAIMER -->
@@ -249,4 +248,32 @@
         
         <script src="counter.js" async defer></script>
     </body>
+    
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+    /* paste this line in verbatim */
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    /* customize formbutton below*/     
+    formbutton("create", {
+        action: "https://formspree.io/f/mzblzddo",
+        title: "Welcome to the TP Archive!",
+        fields: [
+        {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "Mind sharing some feedback? :D",
+        },
+        { type: "submit" }      
+        ],
+        styles: {
+        title: {
+            backgroundColor: "gray"
+        },
+        button: {
+            backgroundColor: "gray"
+        }
+        }
+    });
+    </script>
 </html>
