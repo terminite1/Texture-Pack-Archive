@@ -8,3 +8,4 @@
 .vscode/settings.json
 *.py
 *.lua
+*.php
