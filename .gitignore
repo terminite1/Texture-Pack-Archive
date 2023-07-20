@@ -1,15 +1,6 @@
-# Testing Files #
-#################
-*.cpp
-*.exe
-*.asm
-*.o
-*.py
-*.lua
-*.php
-*.cs
-#########
-# Other #
-#########
+###########
+# Testing #
+###########
 .vscode
 .vscode/settings.json
+testinstuff/
