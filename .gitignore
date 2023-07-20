@@ -4,8 +4,12 @@
 *.exe
 *.asm
 *.o
-.vscode
-.vscode/settings.json
 *.py
 *.lua
 *.php
+*.cs
+#########
+# Other #
+#########
+.vscode
+.vscode/settings.json
