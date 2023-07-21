@@ -21,7 +21,7 @@
         <meta content="The Texture Pack Archive" property="og:title" />
         <meta content="Because private texture packs shouldn't exist." property="og:description" />
         <meta content="https://terminite1.github.io/Texture-Pack-Archive/" property="og:url" />
-        <meta content="https://cdn.discordapp.com/attachments/883131563552960553/1127579441850220644/image.png" property="og:image" />
+        <meta content="https://cdn.discordapp.com/attachments/883131563552960553/1127579441850220644/image.png" property="og:image"/>
         <meta content="#3992FB" data-react-helmet="true" name="theme-color" />
         <!-- discord embed end -->
         <meta name="description" content="The Texture Pack Archive">
@@ -38,9 +38,9 @@
             <font color="white">
                 <font size="12">
                     <font face="arial">
+                        <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="100" id="scrolling-text"><a href="https://discord.gg/x47wXgDzYw" style="color:#3992FB;">Join the Discord! </a></marquee>
                         <hr style="width: 100%; height: 2px; background-color: white;">
-                        The Texture Pack Archive
-                        <br>
+                        The Texture Pack Archive<br>
                         Because <strong>everything</strong> should be public.
                         <p id="counter">Total TP Amount: 0 (0)</p>
                         <p id="counter2">Total TP Pack Amount: 0</p>
@@ -284,4 +284,11 @@
         }
     });
     </script>
+    <script>
+        var scrollingText = document.getElementById("scrolling-text");
+        var text = scrollingText.innerHTML;
+        setInterval(function() {
+          scrollingText.innerHTML += text;
+        }, 1000);
+      </script>
 </html>
